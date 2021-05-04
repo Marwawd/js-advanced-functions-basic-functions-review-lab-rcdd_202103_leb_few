@@ -40,7 +40,9 @@ divide:function divide(x,y){
 };
 
 Calculator(1,3)(1,3)(1,3)(10,5);
-function actionApplyer(i,array){
+
+
+let actionApplyer=function(i,array){
 let a=i;
   for(let j=0,j<=array.length,j++){
    a= array[j](a)
