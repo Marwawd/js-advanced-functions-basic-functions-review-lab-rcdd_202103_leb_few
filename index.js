@@ -42,7 +42,7 @@ divide:function divide(x,y){
 Calculator(1,3)(1,3)(1,3)(10,5);
 
 
-let actionApplyer = function(start, ray) {
+ function actionApplyer (start, ray) {
   let a = start
 
   for (let i = 0; i < ray.length; i++ ){
