@@ -28,7 +28,7 @@ let Calculator = {
 add:function add(x,y){
   return x+y;
 },
-substract:function substract(x,y){
+subtract:function subtract(x,y){
   return x-y;
 },
 multiply:function multiply(x,y){
