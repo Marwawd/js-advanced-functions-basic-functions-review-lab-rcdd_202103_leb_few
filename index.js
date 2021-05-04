@@ -42,11 +42,11 @@ divide:function divide(x,y){
 Calculator(1,3)(1,3)(1,3)(10,5);
 
 
- function actionApplyer (start, ray) {
+ function actionApplyer (start, array) {
   let a = start
 
-  for (let i = 0; i < ray.length; i++ ){
-    a = ray[i](a)
+  for (let i = 0; i < array.length; i++ ){
+    a = array[i](a)
   }
 
   return a
