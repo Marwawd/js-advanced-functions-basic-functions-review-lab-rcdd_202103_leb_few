@@ -42,10 +42,12 @@ divide:function divide(x,y){
 Calculator(1,3)(1,3)(1,3)(10,5);
 
 
-let actionApplyer=function(i,array){
-let a=i;
-  for(let j=0,j<=array.length,j++){
-   a= array[j](a)
+let actionApplyer = function(start, ray) {
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
   }
-  return a;
+
+  return a
 }
