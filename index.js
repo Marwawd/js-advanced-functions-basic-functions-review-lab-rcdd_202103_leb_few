@@ -40,7 +40,10 @@ divide:function divide(x,y){
 };
 
 Calculator(1,3)(1,3)(1,3)(10,5);
-function actionApplyer(i,func){
-  if (func===[])  return i;
-  else return func(i)
+function actionApplyer(i,array){
+let a=i;
+  for(let j=0,j<=array.length,j++){
+   a= array[j](i)
+  }
+  return a;
 }
